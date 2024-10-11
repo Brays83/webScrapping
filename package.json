@@ -1,6 +1,7 @@
 {
   "name": "webscrapping",
   "version": "1.0.0",
+  "description": "Este es mi primer web sracping usando Playwright para obtener precios de los 3 principales supermercados peruanos.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,8 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "playwright": "^1.48.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
   }
 }
