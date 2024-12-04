@@ -2,21 +2,20 @@
   "name": "webscrapping",
   "version": "1.0.0",
   "description": "Este es mi primer web sracping usando Playwright para obtener precios de los 3 principales supermercados peruanos.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.mjs"
+    "start": "node src/index.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "playwright": "^1.48.0"
-  },
-  "devDependencies": {
-    "standard": "^17.1.2"
-  },
-  "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "playwright": "^1.48.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   }
 }
