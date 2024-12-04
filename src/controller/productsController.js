@@ -3,9 +3,9 @@ import { Product } from './../models/product.entity.js';
 import { chromium } from 'playwright'
 const router = express.Router();
 
-router.get('/', async function(req,res){
+router.get('/:object', async function(req,res){
 
-    const object = 'leche'
+    const object = req.params.object;
     const url1 = `https://www.plazavea.com.pe/search/?_query=${object}`
     const browser = await chromium.launch({headless: true})
     const page = await browser.newPage()
